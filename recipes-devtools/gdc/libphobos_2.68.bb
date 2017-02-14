@@ -1,8 +1,7 @@
 SECTION = "devel"
 
-# FIXME use correct license
-LICENSE = "BSL-1.0"
-LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/BSL-1.0;md5=65a7df9ad57aacf825fd252c4c33288c"
+LICENSE = "Phobos"
+LIC_FILES_CHKSUM = "file://phoboslicense.txt;beginline=4;endline=25;md5=802e9b3272bbda357a3653250ac97c0d"
 
 GCC_PV = "6.3.0"
 
