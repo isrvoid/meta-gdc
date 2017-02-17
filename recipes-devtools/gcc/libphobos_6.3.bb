@@ -59,6 +59,7 @@ FILES_${PN} = "\
     ${libdir}/libgdruntime.so.* \
 "
 FILES_${PN}-dev = "\
+    ${libdir}/gcc/${TARGET_SYS}/${BINV}/include/d \
     ${libdir}/libgphobos*.so \
     ${libdir}/libgphobos.spec \
     ${libdir}/libgphobos.la \
