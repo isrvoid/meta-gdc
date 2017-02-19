@@ -42,10 +42,6 @@ do_install () {
 	chown -R root:root ${D}
 }
 
-# FIXME
-#INHIBIT_DEFAULT_DEPS = "1"
-#DEPENDS = "gcc-runtime"
-
 BBCLASSEXTEND = "nativesdk"
 
 PACKAGES = "\
